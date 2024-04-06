@@ -13,10 +13,10 @@ body {
 
 main {
     border: 3px solid black;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     height: 70vh;
-    background: url(img/livro2.png) 100%;
+    background: url(img/caderno.jpg) 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -28,45 +28,62 @@ main {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: center;
 }
 #pagina1, #pagina2 {
-    width: 32%;
-    height: 90%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#pagina2 {
+    padding-left: 75px;
+}
+
+
+.elemento1, .elemento2 {
+    
+    width: 93%;
+    height: 45%;
+    /* margin-bottom:30px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-}
-
-.elemento1 {
-    border: 1px solid red;
-    width: 80%;
-    height: 37%;
-    margin-bottom:30px;
     
 }
 
+.botaoEsquerda, .botaoDireita {
+    height: 25%;
+    width: 100%;
+}
+.botaoEsquerda input{
+    height: 100%;
+}
+
+.botaoDireita {
+    display: flex;
+    justify-content: flex-end;
+}
+
 img {
-    display: inline-block;
-    width: 40%;
+    
+    width: 35%;
     height: 47%;
-    background: url(img/flor1.jpg) center;
+    /* background: url(img/flor1.jpg) center; */
     background-position: center;
     background-size: cover;
+    display: inline;
 }
 
 p {
-    padding: 10px;
+    height: 40%;
+    padding: 30px;
     display: inline;
 }
 
 
-.elemento2 {
-    border: 1px solid blue;
-    width: 80%;
-    height: 37%;
-}
+
 
 
