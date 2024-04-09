@@ -106,3 +106,38 @@ body {
   text-align: center;
   color: #000; 
 }
+
+#geo{
+  position: relative;
+}
+#compass{
+  z-index: -1;
+  position: absolute;
+  top: -2px;
+  size: 5%;
+  visibility: hidden;
+}
+
+#geo:hover #compass{
+  visibility: visible;
+  animation: mover 2s forwards;
+
+}
+
+@keyframes mover {
+  0%{
+      transform: translateX(0px) scale(-1%);
+
+  }
+
+  20%{
+      transform: translateX(-50px) translateY(50px)rotate(20deg)scale(20%);
+      
+  }
+
+  100%{
+      transform: translateX(80px) rotate(0deg) scale(100%);
+      
+      z-index: 1;
+  }
+}

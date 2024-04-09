@@ -10,13 +10,17 @@ body {
 
 .container {
     width: 100%;
-    height: 90vh;
+    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(../img/mato.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .header-content {
+    height: 5vh;
     background-color: #e0d597;
     padding: 10px;
     display: flex;
