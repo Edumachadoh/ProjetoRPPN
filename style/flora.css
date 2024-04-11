@@ -95,11 +95,11 @@ body {
   }
 
 main {
-    
+    border: 5px solid #915f03;
     width: 51%;
     margin: 0 auto;
     height: 70vh;
-    background: url(../img/caderno.jpg) 100%;
+    background: url(../img/caderno2.jpeg) 100%;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,7 +128,7 @@ main {
 .elemento1, .elemento2 {
     
     width: 93%;
-    height: 45%;
+    height: 40%;
     /* margin-bottom:30px; */
     display: flex;
     flex-direction: column;
@@ -137,8 +137,12 @@ main {
     
 }
 
+.elemento2 {
+  height: 55%;
+}
+
 .botaoEsquerda, .botaoDireita {
-    height: 25%;
+    height: 20%;
     width: 100%;
 }
 .botaoEsquerda input{
@@ -158,6 +162,10 @@ img {
     background-position: center;
     background-size: cover;
     display: inline;
+}
+
+.elemento2 img {
+  height: 53%;
 }
 
 p {
