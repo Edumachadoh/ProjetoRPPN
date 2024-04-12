@@ -9,7 +9,7 @@ window.onload = carregarConteudo;
 let pagAtual = 1;
 
 function carregarConteudo() {
-    
+
     var url = './../containerFlores/pagina' + pagAtual + '.html'
 
     var xml = new XMLHttpRequest()
