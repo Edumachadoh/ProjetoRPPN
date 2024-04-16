@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../img/mato2.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .header-content {
+    background-color: #e0d597;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-content h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80%;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    display: flex;
+    align-items: center; 
+  }
+
+  .header-content h1 img {
+    width: 25px; 
+    margin-right: 10px; 
+  }
+
+  .header-content nav {
+    margin: 0;
+  }
+
+  .header-content nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+
+  .header-content nav a:hover {
+    color: #4CAF50;
+  }
+
+  .video {
+    position: relative;
+    width: 100%;
+    height: 570px;
+  }
+
+  .video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .button-container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color:#e0d597; 
+    padding: 10px 0;
+  }
+
+  .botao {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 50px; 
+    background-color: rgb(255, 255, 207);
+    color: #000;
+    text-decoration: none;
+    border: 2px solid transparent; 
+    border-radius: 30px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .botao:hover {
+    border-color: #4CAF50;
+    background-color: rgba(245, 245, 220, 0.8);
+  }
+
+  .flecha {
+    font-size: 20px;
+    color: #014401;
+  }
+
+  .texto {
+    background-color: #ffffff; /* Cor do fundo do texto */
+    padding: 20px;
+  }
+
+  .texto h2 {
+    text-align: center;
+    color: #000; /* Cor do título do texto */
+  }
+
+  .texto p {
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    color: #000; 
+  }
+
+  .animais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-between;
+  }
+
+  .animais img{
+    margin: 5px;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  .animais figure{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .animais figcaption{
+    text-align: center;
+    color: #ffffff;
+    
+  }
+
+  .titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo h2 {
+    font-size: 2rem;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+  }
