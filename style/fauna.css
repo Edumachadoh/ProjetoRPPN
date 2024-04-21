@@ -2,7 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     background-color: #055a2fb7;
+=======
+    background: url(../img/mato2.jpg) no-repeat;
+    background-size: cover;
+>>>>>>> fed0b6f535aecf5c3d6c0247f40af85f8dda7b2e
   }
 
   .header-content {
@@ -111,8 +116,45 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+    padding: 50px;
+    justify-content: space-between;
+>>>>>>> fed0b6f535aecf5c3d6c0247f40af85f8dda7b2e
   }
 
   .animais img{
     margin: 5px;
+<<<<<<< HEAD
   }
+=======
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+  }
+
+  .animais figure{
+    margin: 0px;
+    text-align: center;
+  }
+
+  .animais figcaption{
+    text-align: center;
+    color: #ffffff;
+    
+  }
+
+  .titulo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .titulo h2 {
+    font-size: 2rem;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+  }
+>>>>>>> fed0b6f535aecf5c3d6c0247f40af85f8dda7b2e

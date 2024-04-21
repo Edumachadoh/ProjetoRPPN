@@ -161,8 +161,15 @@ main {
   border: 1px solid black;
 }
 
+.botaoDireita input {
+  border: 1px solid white;
+}
+.botaoEsquerda input {
+  border: 1px solid white;
+}
+
 .flores{
-    padding-top: 20px;
+    padding-top: 23px;
     width: 40%;
     height: 60%;
     /* background: url(img/flor1.jpg) center; */
@@ -172,10 +179,12 @@ main {
 }
 
 .elemento2 img {
-  height: 53%;
+  height: 47%;
 }
 
 p {
-    height: 40%;
-    padding: 20px;
+    height: 32%;
+    padding: 13px;
+    padding-left: 17px;
 }
+
