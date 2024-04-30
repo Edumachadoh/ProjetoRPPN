@@ -107,6 +107,9 @@ body {
 }
 
 .animais{
+  background: url(../img/fundo.jpg);
+  background-position: center;
+    background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,6 +125,7 @@ body {
   width: 100%;
 }
 
+
 .animais figure{
   margin: 0px;
   text-align: center;
@@ -130,9 +134,20 @@ body {
 .animais figcaption{
   text-align: center;
   color: #ffffff;
-  
+  background-color: #014401;
+  border-radius: 8px;
 }
 
 .titulo{
   text-align: center;
 }
+
+.animais figure:hover img {
+transform: scale(1.2); 
+}
+
+.animais figure:hover figcaption {
+display: block; 
+transform: translateY(-9px); 
+}
+

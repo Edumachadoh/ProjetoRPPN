@@ -185,6 +185,7 @@ main {
 p {
     height: 32%;
     padding: 13px;
-    padding-left: 17px;
+    padding-left: 20px;
+    font-size: 0.9rem;
 }
 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('sua_imagem_de_fundo.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        .texto-acima {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 24px;
+        }
+        .imagem-direita {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            width: 200px; /* ajuste conforme necessário */
+            height: auto;
+        }
+        .video-esquerda {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 300px; /* ajuste conforme necessário */
+            height: auto;
+        }
+        .texto-abaixo {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="texto-acima">Seu Texto Acima</div>
+    <img class="imagem-direita" src="sua_imagem_direita.jpg" alt="Imagem Direita">
+    <video class="video-esquerda" controls>
+        <source src="seu_video.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <div class="texto-abaixo">Seu Texto Abaixo</div>
+</div>
+
+</body>
+</html>
