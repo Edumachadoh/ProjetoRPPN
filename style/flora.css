@@ -37,8 +37,17 @@
     }
 
   }
+@media (min-width: 500px) {
+    p {
+        height: 10%;
+        padding: 10px;
+        font-size: 0.6em;
+    }
+
+  }
 
 .container {
+    
     width: 100%;
     height: 93vh;
     display: flex;
@@ -92,6 +101,7 @@
   }
 
 main {
+  min-width: 400px;
     border: 5px solid #915f03;
     width: 51%;
     margin: 0 auto;
