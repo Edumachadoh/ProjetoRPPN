@@ -118,7 +118,8 @@ body {
 #compass{
   z-index: -1;
   position: absolute;
-  top: -2px;
+  top: -4px;
+  left: 45px;
   size: 5%;
   visibility: hidden;
 }
@@ -130,24 +131,51 @@ body {
 }
 
 /*
-CULTURA
-#cultura{
+Hidrografia
+*/
+/*FLORA*/
+#hidro{
   position: relative;
 }
-#compass{
+#nuvem1{
   z-index: -1;
   position: absolute;
-  top: -2px;
+  top: 5px;
+  left: 1px;
   size: 5%;
   visibility: hidden;
 }
-
-#cultura:hover #compass{
-  visibility: visible;
-  animation: mover 2s forwards;
-
+#nuvem2{
+  z-index: -1;
+  position: absolute;
+  top: -15px;
+  left: 65px;
+  size: 5%;
+  visibility: hidden;
 }
-*/
+#nuvem3{
+  z-index: -1;
+  position: absolute;
+  top: -1px;
+  left: 132px;
+  size: 100%;
+  visibility: hidden;
+}
+
+#hidro:hover #nuvem1{
+  visibility: visible;
+  animation: formar 2s 0.3s forwards;
+  
+} 
+#hidro:hover #nuvem2{
+  visibility: visible;
+  animation: formar 2s 0.2s forwards;
+}
+#hidro:hover #nuvem3{
+  visibility: visible;
+  animation: formar 2s  forwards;
+}
+
 
 /*FAUNA*/
 #fauna{
@@ -200,43 +228,42 @@ CULTURA
 #flor1{
   z-index: -1;
   position: absolute;
-  top: -2px;
+  top: 5px;
+  left: 1px;
   size: 5%;
+  rotate: -5deg;
   visibility: hidden;
 }
 #flor2{
   z-index: -1;
   position: absolute;
-  top: -2px;
+  top: 5px;
+  left: 90px;
   size: 5%;
   visibility: hidden;
 }
 #flor3{
   z-index: -1;
   position: absolute;
-  top: -2px;
-  size: 5%;
+  top: -20px;
+  left: 122px;
+  rotate: 30deg;
+  size: 100%;
   visibility: hidden;
 }
 
-#fauna:hover #flor1{
+#flora:hover #flor1{
   visibility: visible;
-  animation: voar 2s 0.3s forwards;
+  animation: brotar 2s 0.3s forwards;
   
 } 
-#fauna:hover #flor2{
+#flora:hover #flor2{
   visibility: visible;
-  animation: voar 2s 0.2s forwards;
+  animation: brotar 2s 0.2s forwards;
 }
-#fauna:hover #flor3{
+#flora:hover #flor3{
   visibility: visible;
-  animation: voar 2s  forwards;
-}
-
-#flora:hover #compass{
-  visibility: visible;
-  animation: mover 2s forwards;
-
+  animation: brotar 2s  forwards;
 }
 
 @keyframes mover {
@@ -281,10 +308,40 @@ CULTURA
 @keyframes brotar {
   0%{
     z-index: 0;
-    transform: translateX(-10px) scale(1%) translateY(100px);
+    transform:scale(0%);
+  }
+  20%{
+    z-index: 0;
+    transform:scale(120%);
+  }
+  30%{
+    z-index: 0;
+    transform:scale(100%);
+  }
+  100%{
+    z-index: 0;
+    transform:scale(100%);
+  }
+}
+
+@keyframes formar {
+  0%{
+    z-index: 0;
+    opacity: 0%;
+    transform:scale(200%) translateX(20px);
+  }
+  10%{
+    opacity: 0%;
+  }
+  75%{
+    z-index: 1;
+    z-index: 0;
+    opacity: 100%;
+
   }
   100%{
     z-index: 1;
-    transform: translateX(20px) scale(100%) translateY(25px);
+    opacity: 100%;
+    transform:scale(200%)translateX(0px);
   }
 }
