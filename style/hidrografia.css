@@ -9,8 +9,11 @@ body {
     text-shadow: 0 2px 20px 10px black;
     font-size: 50px;
     position: absolute;
+    display: block;
     z-index: 1; 
-    left: 40%;           
+    left: 40%;
+    top: 3%; 
+        
   }
   
   .fundo {
@@ -24,11 +27,12 @@ body {
   }
   .texto-acima {
     position: absolute;
-    top: 20px;
+    top: 20%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    font-size: 24px;
+    font-size: 24%;
+    
   }
   .container{
     position: relative;
@@ -36,34 +40,38 @@ body {
   .imagem-direita {
     position: absolute;
     top: 30%;
-    right: 1000px;
+    right: 55%;
     transform: translateY(-50%);
-    width: 35%;  
-    height: 36%;
+    width: 31%;  
+    height: auto;
     border-radius: 20px; 
+    
+
   }
   .video-esquerda {
     position: absolute;
     top: 30%;
-    left: 1000px;
+    left: 52%;
     transform: translateY(-50%);
-    width: 35%; 
+    width: 36%; 
     height: auto;
-    border-radius: 20px; 
-    border: 5px solid rgb(96, 67, 0);
+    border-radius: 10px; 
+    border: 5px solid rgb(172, 125, 14);
   }
   .texto-abaixo {
     position: absolute;
-    bottom: 100px;
+    top: 60%;
     left: 50%;
     transform: translateX(-50%);
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 120%;
     text-align: center;
     background-color: rgb(31, 10, 105);
     border-radius: 20px;
     padding: 15px 20px; 
-    width: calc(100% - 70px); 
+    width: calc(100% - 70px);
+    height: 35%;
+     
   }
   .header-content {
       background-color: #e0d597;
@@ -106,4 +114,5 @@ body {
     }
     .titulo{
       text-align: center;
+      font-size: 30px;
     }

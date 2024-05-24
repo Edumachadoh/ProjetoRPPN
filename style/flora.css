@@ -1,6 +1,7 @@
 * {
     border: 0;
     margin: 0;
+    overflow-y: hidden;
 }
 
 
@@ -53,9 +54,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../img/mato.jpg);
+    background: url(../img/P1020046.jpg);
     background-size: cover;
     background-position: center;
+
 }
 
 .header-content {
@@ -94,10 +96,12 @@
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s ease;
+    
   }
   
   .header-content nav a:hover {
     color: #4CAF50;
+    
   }
 
 main {
@@ -111,6 +115,7 @@ main {
     background-position: center;
     display: flex;
     flex-direction: row;
+    
 }
 
 #livro {
@@ -118,6 +123,8 @@ main {
     display: flex;
     height: 100%;
     align-items: center;
+    
+    
 }
 #pagina1, #pagina2 {
     width: 50%;
@@ -126,9 +133,12 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
+    
 }
 #pagina2 {
     padding-left: 75px;
+    
 }
 
 
@@ -146,6 +156,7 @@ main {
 
 .elemento2 {
   height: 55%;
+  
 }
 
 .botaoEsquerda, .botaoDireita {
@@ -193,9 +204,11 @@ main {
 }
 
 p {
-    height: 32%;
-    padding: 13px;
+    height: 36%;
+    padding: 11px;
     padding-left: 20px;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
 
