@@ -7,12 +7,12 @@ body {
   .title{
     color:white;
     text-shadow: 0 2px 20px 10px black;
-    font-size: 50px;
+    font-size: 40px;
     position: absolute;
     display: block;
     z-index: 1; 
     left: 40%;
-    top: 3%; 
+    top: 4.5%; 
         
   }
   
@@ -22,7 +22,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    opacity: 65%;
+    opacity: 40%;
   
   }
   .texto-acima {
@@ -64,13 +64,13 @@ body {
     left: 50%;
     transform: translateX(-50%);
     color: rgb(255, 255, 255);
-    font-size: 120%;
+    font-size: 100%;
     text-align: center;
     background-color: rgb(31, 10, 105);
     border-radius: 20px;
-    padding: 15px 20px; 
+    padding: 10px; 
     width: calc(100% - 70px);
-    height: 35%;
+    height: 40vh;
      
   }
   .header-content {
@@ -113,6 +113,7 @@ body {
       color: #4CAF50;
     }
     .titulo{
+      padding: 0;
       text-align: center;
       font-size: 30px;
     }
