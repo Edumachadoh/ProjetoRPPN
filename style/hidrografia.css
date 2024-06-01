@@ -8,20 +8,17 @@ body {
     color:white;
     text-shadow: 0 2px 20px 10px black;
     font-size: 40px;
+    width: 100%;
     position: absolute;
-    display: block;
-    z-index: 1; 
-    left: 40%;
-    top: 4.5%; 
-        
+    text-align: center;
+    z-index: 1;       
   }
   
   .fundo {
     position: relative;
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    height: 150%;
+    background: url(../img/fundo12.jpg) no-repeat;
     opacity: 40%;
   
   }
@@ -39,8 +36,8 @@ body {
   }
   .imagem-direita {
     position: absolute;
-    top: 30%;
-    right: 55%;
+    top: 25%;
+    right: 60%;
     transform: translateY(-50%);
     width: 31%;  
     height: auto;
@@ -50,8 +47,8 @@ body {
   }
   .video-esquerda {
     position: absolute;
-    top: 30%;
-    left: 52%;
+    top: 25%;
+    left: 60%;
     transform: translateY(-50%);
     width: 36%; 
     height: auto;
@@ -60,7 +57,7 @@ body {
   }
   .texto-abaixo {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     color: rgb(255, 255, 255);
@@ -113,7 +110,6 @@ body {
       color: #4CAF50;
     }
     .titulo{
-      padding: 0;
       text-align: center;
       font-size: 30px;
     }
